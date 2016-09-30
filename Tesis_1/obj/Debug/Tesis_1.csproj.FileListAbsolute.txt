@@ -1,0 +1,11 @@
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\bin\Debug\Tesis_1.exe.config
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.csprojResolveAssemblyReference.cache
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Form1.resources
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.MDIParent1.resources
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Properties.Resources.resources
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.csproj.GenerateResource.Cache
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Control.Memorama2.resources
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\bin\Debug\Tesis_1.exe
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\bin\Debug\Tesis_1.pdb
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.exe
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.pdb
