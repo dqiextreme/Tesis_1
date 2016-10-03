@@ -63,9 +63,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg1 {
+        internal static System.Drawing.Bitmap A1 {
             get {
-                object obj = ResourceManager.GetObject("Aimg1", resourceCulture);
+                object obj = ResourceManager.GetObject("A1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg10 {
+        internal static System.Drawing.Bitmap A10 {
             get {
-                object obj = ResourceManager.GetObject("Aimg10", resourceCulture);
+                object obj = ResourceManager.GetObject("A10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg11 {
+        internal static System.Drawing.Bitmap A11 {
             get {
-                object obj = ResourceManager.GetObject("Aimg11", resourceCulture);
+                object obj = ResourceManager.GetObject("A11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg2 {
+        internal static System.Drawing.Bitmap A2 {
             get {
-                object obj = ResourceManager.GetObject("Aimg2", resourceCulture);
+                object obj = ResourceManager.GetObject("A2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg3 {
+        internal static System.Drawing.Bitmap A3 {
             get {
-                object obj = ResourceManager.GetObject("Aimg3", resourceCulture);
+                object obj = ResourceManager.GetObject("A3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg4 {
+        internal static System.Drawing.Bitmap A4 {
             get {
-                object obj = ResourceManager.GetObject("Aimg4", resourceCulture);
+                object obj = ResourceManager.GetObject("A4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg5 {
+        internal static System.Drawing.Bitmap A5 {
             get {
-                object obj = ResourceManager.GetObject("Aimg5", resourceCulture);
+                object obj = ResourceManager.GetObject("A5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg6 {
+        internal static System.Drawing.Bitmap A6 {
             get {
-                object obj = ResourceManager.GetObject("Aimg6", resourceCulture);
+                object obj = ResourceManager.GetObject("A6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg7 {
+        internal static System.Drawing.Bitmap A7 {
             get {
-                object obj = ResourceManager.GetObject("Aimg7", resourceCulture);
+                object obj = ResourceManager.GetObject("A7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg8 {
+        internal static System.Drawing.Bitmap A8 {
             get {
-                object obj = ResourceManager.GetObject("Aimg8", resourceCulture);
+                object obj = ResourceManager.GetObject("A8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Aimg9 {
+        internal static System.Drawing.Bitmap A9 {
             get {
-                object obj = ResourceManager.GetObject("Aimg9", resourceCulture);
+                object obj = ResourceManager.GetObject("A9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,119 +173,9 @@ namespace Tesis_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Girada {
+        internal static System.Drawing.Bitmap Que {
             get {
-                object obj = ResourceManager.GetObject("Girada", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img1 {
-            get {
-                object obj = ResourceManager.GetObject("img1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img10 {
-            get {
-                object obj = ResourceManager.GetObject("img10", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img11 {
-            get {
-                object obj = ResourceManager.GetObject("img11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img2 {
-            get {
-                object obj = ResourceManager.GetObject("img2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img3 {
-            get {
-                object obj = ResourceManager.GetObject("img3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img4 {
-            get {
-                object obj = ResourceManager.GetObject("img4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img5 {
-            get {
-                object obj = ResourceManager.GetObject("img5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img6 {
-            get {
-                object obj = ResourceManager.GetObject("img6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img7 {
-            get {
-                object obj = ResourceManager.GetObject("img7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img8 {
-            get {
-                object obj = ResourceManager.GetObject("img8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img9 {
-            get {
-                object obj = ResourceManager.GetObject("img9", resourceCulture);
+                object obj = ResourceManager.GetObject("Que", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -12,7 +12,7 @@ using System.Collections;
 //namespace memorama.Ctrl
 namespace Tesis_1.Control
 {
-    public partial class Memorama2 : UserControl
+    public partial class Memorama3 : UserControl
     {
         int Movimientos = 0;
         int CantidadDeCartasVolteadas = 0;
@@ -25,11 +25,11 @@ namespace Tesis_1.Control
 
         
 
-        public static int Grid_Size;
+        private static int Grid_Size;
 
         Form frm;
 
-        public Memorama2(int Gs)
+        public Memorama3(int Gs)
         {
             InitializeComponent();
             
@@ -43,11 +43,12 @@ namespace Tesis_1.Control
         }
 
 
-        public void master()
+        private void master()
         {
             timer1.Enabled = false;
             timer1.Stop();
-            label1.Text = "0";
+            //label1.Text = "0";
+            button2.Text = "Movimientos: 0";
             CantidadDeCartasVolteadas = 0;
             Movimientos = 0;
             panel1.Controls.Clear();
@@ -90,6 +91,7 @@ namespace Tesis_1.Control
                     CartasJuego.Name = string.Format("{0}", contadorFichas);
                     CartasJuego.Dock = DockStyle.Fill;
                     CartasJuego.SizeMode = PictureBoxSizeMode.StretchImage;
+                    //CartasJuego.Image = Properties.Resources.Girada;
                     CartasJuego.Image = Properties.Resources.Que;
                     CartasJuego.Cursor = Cursors.Hand;
                     CartasJuego.Click += btnCarta_Click;
@@ -100,83 +102,14 @@ namespace Tesis_1.Control
             tablaPanel.Dock = DockStyle.Fill;
             panel1.Controls.Add(tablaPanel);
         }
-
-        /*
-        public void Random_Cards()
-        {
-            timer1.Enabled = false;
-            timer1.Stop();
-            //L_Mov = "0";
-            label1.Text = "0";
-  
-            CantidadDeCartasVolteadas = 0;
-            Movimientos = 0;
-            panel1.Controls.Clear();
-
-            for (int i = 0; i < 8; i++)
-            {
-                CartasEnumeradas.Add(i.ToString());
-                CartasEnumeradas.Add(i.ToString());
-            }
-            var NumeroAleatorio = new Random();
-            var Resultado = CartasEnumeradas.OrderBy(item => NumeroAleatorio.Next());
-
-            foreach (string ValorCarta in Resultado)
-            {
-                CartasRevueltas.Add(ValorCarta);
-            }
-        }
-
-        public void Dimension_Define()
-        {
-            tablaPanel.RowCount = Grid_Size;
-            tablaPanel.ColumnCount = Grid_Size;
-            for (int i = 0; i < Grid_Size; i++)
-            {
-                var Porcentaje = 150f / (float)Grid_Size - 10;
-                tablaPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, Porcentaje));
-                tablaPanel.RowStyles.Add(new RowStyle(SizeType.Percent, Porcentaje));
-            }
-        }
-
-        public TableLayoutPanel Fill_Panel()
-        {
-            int contadorFichas = 1;
-            for (var i = 0; i < Grid_Size; i++)
-            {
-                for (var j = 0; j < Grid_Size; j++)
-                {
-                    var CartasJuego = new PictureBox();
-                    CartasJuego.Name = string.Format("{0}", contadorFichas);
-                    CartasJuego.Dock = DockStyle.Fill;
-                    CartasJuego.SizeMode = PictureBoxSizeMode.StretchImage;
-                    CartasJuego.Image = Properties.Resources.Girada;
-                    CartasJuego.Cursor = Cursors.Hand;
-                    //CartasJuego.Click += test0;
-                    CartasJuego.Click += btnCarta_Click;
-                    tablaPanel.Controls.Add(CartasJuego, j, i);
-                    contadorFichas++;
-                }
-            }
-            tablaPanel.Dock = DockStyle.Fill;
-            return tablaPanel;
-        }
-
-        private void test0(object sender, EventArgs e)
-        {
-            var result = sender.GetType().GetProperties().Single(x => x.Name == "Name").GetValue(sender, null);
-            var result2 = sender.GetType().GetProperties().Single(x => x.Name == "Text").GetValue(sender, null);
-        }
-
-        
-        */
+       
         private void btnCarta_Click(object sender, EventArgs e)
         {
             if (CartasSeleccionadas.Count < 2)
             {
                 Movimientos++;
-                //L_Mov = Convert.ToString(Movimientos);
-                label1.Text = Convert.ToString(Movimientos);
+                //label1.Text = Convert.ToString(Movimientos);
+                button2.Text = "Movimientos: " + Convert.ToString(Movimientos); 
                 var CartasSeleccionadasUsuario = (PictureBox)sender;
                 var ubisel = CartasSeleccionadasUsuario.Name;
 
@@ -210,7 +143,7 @@ namespace Tesis_1.Control
             }
         }
 
-        public Bitmap RecuperarImagen(int NumeroImagen)
+        private Bitmap RecuperarImagen(int NumeroImagen)
         {
             Bitmap TmpImg = new Bitmap(200, 100);
             switch (NumeroImagen)

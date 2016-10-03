@@ -31,19 +31,17 @@ namespace Tesis_1
             childForm.Show();
         }
 
+        private void removToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Controls.RemoveByKey("Memorama");
+            mctrl.Dispose();
+        }
+
+        Memorama2 mctrl;// = new Memorama2(Grid_Size);
         private void memoramaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Form frmM = this;
-            //mctrl.Location = new Point(0, 0);
-            //mctrl.Name = "mem_Ctrl1";
-            //mctrl.Size = new Size(450, 300);
-            //Controls.Add(mctrl);
-            t1();
-        }
-        Memorama2 mctrl;// = new Memorama2(Grid_Size);
-        public void t1()
-        {
             Controls.RemoveByKey("Memorama");
+            Controls.RemoveByKey("Logica");
             mctrl = new Memorama2(Grid_Size);
             Form frmM = this;
             mctrl.Dock = DockStyle.Fill;
@@ -51,10 +49,16 @@ namespace Tesis_1
             Controls.Add(mctrl);
         }
 
-        private void removToolStripMenuItem_Click(object sender, EventArgs e)
+        Logica J_Log;
+        private void logicaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Controls.RemoveByKey("Memorama");
-            mctrl.Dispose();
+            Controls.RemoveByKey("Memorama");
+            Controls.RemoveByKey("Logica");
+            J_Log = new Logica();
+            Form frmM = this;
+            J_Log.Dock = DockStyle.Fill;
+            J_Log.Name = "Logica";
+            Controls.Add(J_Log);
         }
 
         

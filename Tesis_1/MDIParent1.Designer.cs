@@ -36,6 +36,7 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.logicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             this.juegosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.memoramaToolStripMenuItem,
+            this.logicaToolStripMenuItem,
             this.removToolStripMenuItem});
             this.juegosToolStripMenuItem.Name = "juegosToolStripMenuItem";
             this.juegosToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
@@ -89,10 +91,18 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
+            // logicaToolStripMenuItem
+            // 
+            this.logicaToolStripMenuItem.Name = "logicaToolStripMenuItem";
+            this.logicaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.logicaToolStripMenuItem.Text = "Logica";
+            this.logicaToolStripMenuItem.Click += new System.EventHandler(this.logicaToolStripMenuItem_Click);
+            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScrollMargin = new System.Drawing.Size(100, 100);
             this.ClientSize = new System.Drawing.Size(632, 453);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
@@ -118,6 +128,7 @@
         private System.Windows.Forms.ToolStripMenuItem juegosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem memoramaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem removToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logicaToolStripMenuItem;
     }
 }
 
