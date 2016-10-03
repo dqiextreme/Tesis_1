@@ -11,3 +11,4 @@ C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\T
 C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.pdb
 C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Control.Logica.resources
 C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Control.Memorama3.resources
+C:\Users\asoftware8\Documents\Visual Studio 2012\Projects\variado_2012\Tesis_1\Tesis_1\obj\Debug\Tesis_1.Control.Laberinto.resources

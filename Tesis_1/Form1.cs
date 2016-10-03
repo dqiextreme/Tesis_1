@@ -22,6 +22,10 @@ namespace Tesis_1
 
         Memorama3 mctrl3;
         Logica J_Log;
+        Laberinto J_Lab;
+
+        //--------------------------------------------------
+
         public void Memor()
         {
             mctrl3 = new Memorama3(Grid_Size);
@@ -38,10 +42,21 @@ namespace Tesis_1
             tabPage2.Controls.Add(J_Log);
         }
 
+        public void Laber()
+        {
+            J_Lab = new Laberinto();
+            J_Lab.Dock = DockStyle.Fill;
+            J_Lab.Name = "Laberinto";
+            tabPage2.Controls.Add(J_Lab);
+        }
+
+        //------------------------------------------------
+
         public void Remov()
         {
             tabPage2.Controls.RemoveByKey("Memorama");
             tabPage2.Controls.RemoveByKey("Logica");
+            tabPage2.Controls.RemoveByKey("Laberinto");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -56,6 +71,14 @@ namespace Tesis_1
             Remov();
             Logi();
             tabControl1.SelectedTab = tabPage2;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Remov();
+            Laber();
+            tabControl1.SelectedTab = tabPage2;
+
         }
     }
 }
