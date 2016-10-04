@@ -22,7 +22,7 @@ namespace Tesis_1
 
         Memorama3 mctrl3;
         Logica J_Log;
-        Laberinto J_Lab;
+        Laberinto2 J_Lab;
 
         //--------------------------------------------------
 
@@ -44,7 +44,7 @@ namespace Tesis_1
 
         public void Laber()
         {
-            J_Lab = new Laberinto();
+            J_Lab = new Laberinto2();
             J_Lab.Dock = DockStyle.Fill;
             J_Lab.Name = "Laberinto";
             tabPage2.Controls.Add(J_Lab);

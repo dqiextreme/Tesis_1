@@ -50,6 +50,12 @@
     <Compile Include="Control\Laberinto.designer.cs">
       <DependentUpon>Laberinto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Control\Laberinto2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Laberinto2.designer.cs">
+      <DependentUpon>Laberinto2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Control\Memorama3.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Control\Laberinto.resx">
       <DependentUpon>Laberinto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Laberinto2.resx">
+      <DependentUpon>Laberinto2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Control\Memorama3.resx">
       <DependentUpon>Memorama3.cs</DependentUpon>
