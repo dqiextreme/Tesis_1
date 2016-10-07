@@ -111,8 +111,6 @@ namespace Tesis_1.Control
                     }
                 }
             }
-            
-
         }
 
         int act = 0;
