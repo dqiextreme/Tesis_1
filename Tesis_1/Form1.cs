@@ -23,6 +23,7 @@ namespace Tesis_1
         Memorama3 mctrl3;
         Logica J_Log;
         Laberinto2 J_Lab;
+        Sopa_Letras2 J_Sop;
 
         //--------------------------------------------------
 
@@ -50,6 +51,14 @@ namespace Tesis_1
             tabPage2.Controls.Add(J_Lab);
         }
 
+        public void Sopa_L()
+        {
+            J_Sop = new Sopa_Letras2();
+            J_Sop.Dock = DockStyle.Fill;
+            J_Sop.Name = "Sopa_Letras";
+            tabPage2.Controls.Add(J_Sop);
+        }
+
         //------------------------------------------------
 
         public void Remov()
@@ -57,6 +66,7 @@ namespace Tesis_1
             tabPage2.Controls.RemoveByKey("Memorama");
             tabPage2.Controls.RemoveByKey("Logica");
             tabPage2.Controls.RemoveByKey("Laberinto");
+            tabPage2.Controls.RemoveByKey("Sopa_Letras");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -77,6 +87,14 @@ namespace Tesis_1
         {
             Remov();
             Laber();
+            tabControl1.SelectedTab = tabPage2;
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Remov();
+            Sopa_L();
             tabControl1.SelectedTab = tabPage2;
 
         }

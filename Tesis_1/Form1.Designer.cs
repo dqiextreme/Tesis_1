@@ -30,12 +30,13 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -55,6 +56,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
@@ -65,6 +67,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Seleccionar Juego";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(248, 6);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(114, 103);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Laberinto";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -91,7 +103,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(458, 236);
+            this.tabPage2.Size = new System.Drawing.Size(642, 301);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Juego";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -102,7 +114,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(458, 236);
+            this.tabPage3.Size = new System.Drawing.Size(642, 301);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Resultados";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -120,15 +132,15 @@
             this.button3.Text = "Se Mostraran los Resultados";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button5
             // 
-            this.button4.Location = new System.Drawing.Point(248, 6);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 103);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Laberinto";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button5.Location = new System.Drawing.Point(368, 6);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(114, 103);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Laberinto";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
@@ -155,6 +167,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
