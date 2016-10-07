@@ -37,6 +37,7 @@ namespace Tesis_1.Control
             CartasJuego.SizeMode = PictureBoxSizeMode.StretchImage;
             CartasJuego.Cursor = Cursors.Hand;
             CartasJuego.MouseEnter += BT1_Me;
+            CartasJuego.Margin = new Padding(0);
             return CartasJuego;
         }
 

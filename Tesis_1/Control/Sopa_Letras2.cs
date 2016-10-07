@@ -29,6 +29,8 @@ namespace Tesis_1.Control
             CartasJuego.MouseClick += BT1_MouseClick;
             //CartasJuego.Enabled = false;
             CartasJuego.Enabled = true;
+            //margenes entre los picturebox
+            CartasJuego.Margin = new Padding(0);
             return CartasJuego;
         }
 
